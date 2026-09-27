@@ -39,13 +39,20 @@
           <legend>Adoption Inquiry Form</legend>
           <label>Enter your full name</label>
           <input type="text" name="name">
-          <label>Enter your email</label>
-          <input type="email" name="email">
-          <label>Enter your phone</label>
-          <input type="text" name="phone">
           <label>How should we contact you?</label>
-          <input type="radio" name="contact" value="email">Email
-          <input type="radio" name="contact" value="phone">Phone
+          <select id="contactmenu">
+            <option id="selectone">Select One</option>
+            <option id="emailoption">Email</option>
+            <option id="phoneoption">Phone</option>
+          </select>
+          <div id="emailbox">
+            <label>Enter your email</label>
+            <input type="email" name="email">
+          </div>
+          <div id="phonebox">
+            <label>Enter your phone</label>
+            <input type="text" name="phone">
+          </div>
           <label>Which pet are you interested in?</label>
           <select>
             <option>Bailey</option>
@@ -67,6 +74,8 @@
     <footer>&copy; Copyright 2026 Community Pet Adoption Center</footer>
 
 </div> <!-- End Container -->
+
+<script src="js/contact.js"></script>
 
 </body>
 </html>

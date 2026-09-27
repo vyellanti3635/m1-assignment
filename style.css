@@ -216,6 +216,25 @@ input[type="submit"]:hover {
   background-color: #e76f51;
 }
 
+/* Gallery */
+#gallery {
+  padding: 0;
+  margin: 1.5em 0;
+  list-style-type: none;
+  text-align: center;
+}
+#gallery .photo {
+  display: inline-block;
+  width: 280px;
+  margin: 0.5em;
+  vertical-align: top;
+}
+#gallery .photo img {
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 /* Footer */
 footer {
   padding: 1.2em;

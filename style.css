@@ -261,6 +261,32 @@ input[type="submit"]:hover {
 #gallery li:hover .description {
   visibility: visible;
 }
+#infobox {
+  display: none;
+  position: relative;
+  width: 60%;
+  margin: 1em auto 2em auto;
+  padding: 1em 1.5em;
+  background-color: #faf7f2;
+  border: 2px solid #f4a261;
+  border-radius: 8px;
+  text-align: left;
+}
+#infobox h3 {
+  margin-top: 0;
+}
+#infobox p {
+  margin-bottom: 0;
+}
+#closebox {
+  position: absolute;
+  top: 0.4em;
+  right: 0.7em;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #e76f51;
+  cursor: pointer;
+}
 
 /* Footer */
 footer {

@@ -45,6 +45,12 @@
             <li class="photo"><img src="images/pet9.jpg"></li>
             <li class="photo"><img src="images/pet10.jpg"></li>-->
         </ul>
+
+        <div id="infobox">
+            <span id="closebox">&times;</span>
+            <h3 id="infotitle"></h3>
+            <p id="infotext"></p>
+        </div>
     </main> <!-- End Main Content -->
 
     <!-- Footer Information -->
@@ -105,6 +111,7 @@
     //Display all ten image codes stored in the array
     document.getElementById("gallery").innerHTML = imageList.join("");
 </script>
+<script src="js/infobox.js"></script>
 
 </body>
 </html>
